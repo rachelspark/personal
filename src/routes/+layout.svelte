@@ -1,7 +1,6 @@
 <script>
 	import '../app.css';
     import Header from '$lib/components/Header.svelte'
-    import MouseCursor from '$lib/components/MouseCursor.svelte';
     // import Footer from '$lib/components/Footer.svelte';
     
     import { fade } from 'svelte/transition'
