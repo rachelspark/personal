@@ -1,5 +1,6 @@
 ---
-title: Driving User Activation at Warp
+title: Driving user activation at Warp
+description: A recap of my summer of growth and engineering
 date: 'Oct 11, 2022'
 ---
 

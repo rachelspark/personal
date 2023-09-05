@@ -47,7 +47,7 @@
 
 		<ul class="text-lg text-neutral-500 dark:text-neutral-200 mt-4">
 			{#each data.posts as post}
-				<li>
+				<li class="pb-2">
 					<a class="link text-black" href={post.path}>
 						{post.meta.title}
 					</a>
