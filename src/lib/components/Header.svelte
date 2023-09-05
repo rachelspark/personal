@@ -21,11 +21,11 @@
 			class="hover:text-black dark:hover:text-white"
 			class:active={$page.route.id === '/projects'}>projects</a
 		>
-		<a
-			href="/"
+		<!-- <a
+			href="/about"
 			class="hover:text-black dark:hover:text-white"
 			class:active={$page.route.id === '/about'}>about</a
-		>
+		> -->
         <ThemeSwitch />
 	</nav>
 </header>

@@ -51,25 +51,25 @@
 		@apply font-bold;
 	}
 	article :global(hr) {
-		@apply w-2/3 mx-auto my-6 border-zinc-700;
+		@apply w-2/3 mx-auto my-6 border-neutral-600 dark:border-neutral-200;
 	}
 	article :global(ul) {
 		@apply pl-7 mb-4 list-disc;
 	}
 	article :global(ul li)::marker {
-		@apply text-zinc-800;
+		@apply text-neutral-600 dark:text-neutral-200;
 	}
 	article :global(ol) {
 		@apply pl-7 mb-4 list-decimal;
 	}
 	article :global(ol li)::marker {
-		@apply text-zinc-800;
+		@apply text-neutral-600 dark:text-neutral-200;
 	}
 	article :global(li) {
 		@apply pl-1.5 mb-2;
 	}
 	article :global(blockquote) {
-		@apply border-l-4 border-zinc-800 px-4 py-1;
+		@apply border-l-4 border-neutral-600 dark:border-neutral-200 px-4 py-1;
 	}
 	article :global(blockquote > p) {
 		@apply leading-relaxed;
