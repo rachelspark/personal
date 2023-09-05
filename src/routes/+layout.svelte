@@ -15,7 +15,7 @@
     export let data
 </script>
 
-<div class="flex flex-col h-screen justify-between">
+<div class="flex flex-col h-screen justify-between {isMobile || reducedMotion ? 'body' : ''}">
     <div>
         <Header />
         {#if isMobile || reducedMotion}
@@ -36,3 +36,12 @@
     </div>
     <!-- <Footer/> -->
 </div>
+
+<style>
+    .body {
+      background: radial-gradient(circle 300px at 50vw 30vh, #d05bdd3b 5%, transparent 100%);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+</style>
