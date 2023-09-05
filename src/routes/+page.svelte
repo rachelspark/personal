@@ -23,9 +23,9 @@
         <p>I'd love to hear from you: <a href="mailto:rachpark@stanford.edu">rachpark [at] stanford [dot] edu</a> or rachelsupark on <a class="link" target="_blank" href="https://twitter.com/rachelsupark/">Twitter</a> and <a class="link" target="_blank" href="https://www.linkedin.com/in/rachelsupark/">LinkedIn</a>.</p>
     </div>
     <div class="text-lg">
-        <a href="/writing" class="text-xl font-bold py-4 ">Recent Posts <ArrowRightIcon class="inline-block text-neutral-600 hover:text-[#790E7B]" size={16}/></a>
+        <a href="/writing" class="text-xl font-bold py-4 ">Recent Posts <ArrowRightIcon class="inline-block text-neutral-600 dark:text-neutral-400 hover:text-black dark:hover:text-white" size={16}/></a>
             
-        <ul class="text-lg text-gray-500 mt-4">
+        <ul class="text-lg text-neutral-500 dark:text-neutral-200 mt-4">
             {#each data.posts as post}
             <li>
                 <a class="link text-black" href={post.path}>
