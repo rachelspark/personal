@@ -8,8 +8,8 @@
 
 <svelte:window
 	on:mousemove={(e) => {
-		coords1.set({ x: e.clientX, y: e.clientY })
-		coords2.set({ x: e.clientX, y: e.clientY })
+		coords1.set({ x: e.clientX, y: e.clientY });
+		coords2.set({ x: e.clientX, y: e.clientY });
 	}}
 />
 
@@ -20,18 +20,18 @@
 			<stop offset="100%" style="stop-color:#AD1FAF;stop-opacity:0" />
 		</radialGradient>
 	</defs>
-	<circle cx={$coords1.x} cy={$coords1.y} r={$size} fill="url(#grad1)"/>
+	<circle cx={$coords1.x} cy={$coords1.y} r={$size} fill="url(#grad1)" />
 </svg>
 
 <style>
 	.w-full {
 		width: 100vw;
 	}
-	
+
 	.h-full {
 		height: 100vh;
 	}
-	
+
 	svg {
 		position: absolute;
 		top: 0;
