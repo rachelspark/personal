@@ -1,0 +1,18 @@
+projects:
+  - title: Anything AI
+    date: May 2023
+    tagList: "Generative AI, Computer Vision, NLP"
+    description: Click and fill anything, with a simple text prompt.
+    content:  Anything AI is a generative photo editing tool that accepts an image, creates object masks (holes) based on where you click, and then takes in a prompt to generate content and magically fill that hole with anything you want. SAM meets Stable Diffusion, in your browser.
+    link: https://anything-ai.com
+    repo: https://github.com/rachelspark/anything-ai
+    img: /assets/projects/anythingai.png
+
+  - title: Stanford Goose
+    date: Sep 2022
+    tagList: "Go, Redis, Svelte, Docker"
+    description: The fastest search engine for Stanford's course catalog.
+    content:  Stanford Goose uses an in-memory Redis cache deployed to the edge.
+    link: https://stanfordgoose.com
+    repo: https://github.com/rachelspark/stanfordgoose
+    img: /assets/projects/stanfordgoose.png
