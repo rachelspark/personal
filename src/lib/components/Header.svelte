@@ -3,7 +3,11 @@
 	import { page } from '$app/stores';
 </script>
 
-<header class="layout-md flex flex-wrap justify-between text-lg py-8 align-start">
+<header
+	class="layout-md flex flex-wrap justify-between text-lg py-8 align-start"
+	data-sveltekit-noscroll
+	data-sveltekit-preload-code="eager"
+>
 	<a class="text-2xl font-bold" href="/">Rachel Park</a>
 	<nav class="flex text-neutral-800 dark:text-neutral-200 space-x-3 align-start">
 		<a
