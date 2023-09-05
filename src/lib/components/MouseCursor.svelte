@@ -16,7 +16,7 @@
 <svg class="w-full h-full">
 	<defs>
 		<radialGradient id="grad1" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
-			<stop offset="0%" style="stop-color:#AD1FAF;stop-opacity:.2" />
+			<stop offset="0%" style="stop-color:#AD1FAF;stop-opacity:.15" />
 			<stop offset="100%" style="stop-color:#AD1FAF;stop-opacity:0" />
 		</radialGradient>
 	</defs>
@@ -29,7 +29,7 @@
 	}
 	
 	.h-full {
-		height: 100vw;
+		height: 100vh;
 	}
 	
 	svg {
