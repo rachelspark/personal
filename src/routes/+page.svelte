@@ -1,7 +1,9 @@
-<script>
+<script lang="ts">
+    import MouseCursor from '$lib/components/MouseCursor.svelte';
     export let data
 </script>
 
+<MouseCursor />
 <div class="layout-md">
     <div class="text-lg space-y-4 mt-8 mb-16">
         <p>Hi! I'm Rachel Park. </p>
