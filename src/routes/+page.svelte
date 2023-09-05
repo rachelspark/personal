@@ -1,6 +1,25 @@
-<div class="layout-md text-lg space-y-4">
-    <h1 class="mt-8 text-3xl font-bold mb-8">Hi! I'm Rachel.</h1>
-    <p>I’m a student at Stanford working on the future of cloud computing at <a href="https://modal.com/">Modal</a>.</p>
-    <p>I like building products that help people create, collaborate, and learn. Previously, I straddled product growth and engineering at <a href="https://www.warp.dev/">Warp</a> and <a href="https://get.mem.ai/"> Mem</a>. I also started Curieus. </p>
-    <p>I'm a fan of being outdoors, coffee, memoirs, and volleyball.</p>
+<script>
+    export let data
+</script>
+
+<div class="layout-md">
+    <div class="text-lg space-y-4 mt-8 mb-16">
+        <p>Hi! I'm Rachel Park. </p>
+        <p>I’m a Stanford student working on the future of cloud computing at <a class="link" target="_blank" href="https://modal.com/">Modal</a>.</p>
+        <p>I like building products that help people create, collaborate, and learn. Prior to Modal, I straddled product growth and engineering at <a class="link" target="_blank" href="https://www.warp.dev/">Warp</a> and <a class="link" target="_blank" href="https://get.mem.ai/"> Mem</a>.</p>
+        <p>In my free time, I enjoy the outdoors, iced coffee, memoirs, and volleyball.</p>
+    </div>
+    <div class="text-lg">
+        <h2 class="pt-4">Recent Posts</h2>
+        <ul class="text-lg text-gray-500">
+            {#each data.posts as post}
+            <li>
+                <a class="link text-black" href={post.path}>
+                    {post.meta.title}
+                </a> -
+                {post.meta.date}
+            </li>
+            {/each}
+        </ul>
+    </div>
 </div>

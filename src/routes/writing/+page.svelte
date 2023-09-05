@@ -3,16 +3,14 @@
 </script>
 
 <div class="layout-md">
-    <h1>Writing</h1>
+    <h1 class="mt-4 mb-8">Posts</h1>
     
-    <ul>
+    <ul class="text-lg text-gray-500">
         {#each data.posts as post}
         <li>
-            <h2>
-            <a href={post.path}>
+            <a class="link text-black" href={post.path}>
                 {post.meta.title}
-            </a>
-            </h2>
+            </a> -
             {post.meta.date}
         </li>
         {/each}

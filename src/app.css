@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+    h1 {
+      @apply text-3xl font-bold;
+    }
+    h2 {
+        @apply text-xl font-bold mb-4;
+    }
+  }
+
 @layer components {
     .link {
         @apply underline underline-offset-[3px] decoration-neutral-400 dark:decoration-neutral-500;
