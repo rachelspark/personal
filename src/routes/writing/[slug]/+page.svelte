@@ -32,7 +32,7 @@
     }
     article :global(h3) {
         @apply text-xl font-bold leading-snug pt-4 pb-3
-    }
+    } 
     article :global(:not(h1, h2, h3, h4) > code) {
         @apply text-sm
     }
