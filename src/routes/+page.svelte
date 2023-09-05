@@ -1,5 +1,4 @@
 <script lang="ts">
-	import { ArrowRightIcon } from 'lucide-svelte';
 	import MouseCursor from '$lib/components/MouseCursor.svelte';
 
 	import { browser } from '$app/environment';
@@ -45,10 +44,7 @@
 	</div>
 	<div class="text-lg">
 		<a href="/writing" class="text-xl font-bold py-4"
-			>Recent Posts <ArrowRightIcon
-				class="inline-block text-neutral-600 dark:text-neutral-400 hover:text-black dark:hover:text-white"
-				size={16}
-			/></a
+			>Recent Posts</a
 		>
 
 		<ul class="text-lg text-neutral-500 dark:text-neutral-200 mt-4">
