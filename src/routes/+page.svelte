@@ -43,9 +43,7 @@
 		</p>
 	</div>
 	<div class="text-lg">
-		<a href="/writing" class="text-xl font-bold py-4"
-			>Recent Posts</a
-		>
+		<a href="/writing" class="text-xl font-bold py-4">Recent Posts</a>
 
 		<ul class="text-lg text-neutral-500 dark:text-neutral-200 mt-4">
 			{#each data.posts as post}
