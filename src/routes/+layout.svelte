@@ -9,10 +9,21 @@
 	const isMobile = browser && /Android|iPhone/i.test(navigator.userAgent);
 	const reducedMotion = browser && matchMedia('(prefers-reduced-motion: reduce)').matches;
 
+    import { onMount } from 'svelte';
+
+    onMount(() => {
+        if (!isMobile && !reducedMotion) {
+            document.body.classList.add('fixed-background');
+        } else {
+            document.body.classList.remove('fixed-background');
+        }
+    });
+
 	export let data;
 </script>
 
-<div class="flex flex-col h-screen justify-between {isMobile || reducedMotion ? 'body' : ''}">
+
+<div class="flex flex-col h-screen justify-between">
 	<div>
 		<Header />
 		{#if isMobile || reducedMotion}
@@ -34,8 +45,8 @@
 </div>
 
 <style>
-	.body {
-		background: radial-gradient(circle 300px at 50vw 30vh, #d05bdd3b 5%, transparent 100%);
+	:global(.gradient-background) {
+		background: radial-gradient(circle 300px at 50vw 40vh, #d05bdd3b 5%, transparent 100%);
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-attachment: fixed;

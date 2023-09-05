@@ -3,7 +3,7 @@
 
 	let coords1 = writable({ x: 0, y: 0 });
 	let coords2 = writable({ x: 0, y: 0 });
-	let size = writable(280);
+	let size = writable(300);
 </script>
 
 <svelte:window
@@ -16,8 +16,8 @@
 <svg class="w-full h-full">
 	<defs>
 		<radialGradient id="grad1" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
-			<stop offset="0%" style="stop-color:#AD1FAF;stop-opacity:.15" />
-			<stop offset="100%" style="stop-color:#AD1FAF;stop-opacity:0" />
+			<stop offset="0%" style="stop-color:#78328C;stop-opacity:.2" />
+			<stop offset="100%" style="stop-color:#78328C;stop-opacity:0" />
 		</radialGradient>
 	</defs>
 	<circle cx={$coords1.x} cy={$coords1.y} r={$size} fill="url(#grad1)" />

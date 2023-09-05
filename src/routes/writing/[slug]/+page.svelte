@@ -40,8 +40,8 @@
 		@apply bg-white/5 border border-zinc-700 rounded py-0.5 px-1;
 	}
 	article :global(a) {
-		@apply underline underline-offset-[2px] dark:text-neutral-300 decoration-neutral-300 dark:decoration-neutral-500;
-		@apply dark:hover:text-white transition-colors;
+		@apply underline underline-offset-[2px]  decoration-neutral-300;
+		@apply  dark:decoration-neutral-800 dark:hover:text-white transition-colors;
 		@apply dark:hover:decoration-white;
 	}
 	article :global(p) {
