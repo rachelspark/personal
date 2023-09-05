@@ -36,6 +36,7 @@
 	"type": "module",
 	"dependencies": {
 		"@types/js-yaml": "^4.0.5",
+		"@vercel/analytics": "^1.0.2",
 		"lucide-svelte": "^0.274.0"
 	}
 }
