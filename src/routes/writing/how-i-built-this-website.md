@@ -4,4 +4,4 @@ description: Building a personal website and static blog using SvelteKit
 date: 'Sep 5, 2023'
 ---
 
-hello world
+SvelteKit, mdsvex, TailwindCSS, and more. Full write-up coming soon.
