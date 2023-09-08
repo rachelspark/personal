@@ -68,7 +68,7 @@
 <button
 	class="{dark
 		? 'focus:gray-400'
-		: 'focus:gray-400'} border-2 border-transparent rounded-full cursor-pointer transition-colors ease-in-out duration-200 focus:outline-none"
+		: 'focus:gray-400'} border-2 border-transparent rounded-full cursor-pointer transition-colors ease-in-out duration-200 hover:rotate-12 focus:outline-none"
 	class:hidden
 	on:click={toggle}
 >

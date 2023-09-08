@@ -40,7 +40,7 @@
 		@apply bg-white/5 border border-zinc-700 rounded py-0.5 px-1;
 	}
 	article :global(a) {
-		@apply underline underline-offset-[2px]  decoration-neutral-300;
+		@apply underline underline-offset-[2px]  decoration-neutral-400;
 		@apply  dark:decoration-neutral-800 dark:hover:text-white transition-colors;
 		@apply dark:hover:decoration-white;
 	}
