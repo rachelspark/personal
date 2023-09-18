@@ -1,4 +1,13 @@
 projects:
+  - title: Boombot
+    date: Jul 2023
+    tagList: "Generative AI, MusicGen"
+    description: Create your own music samples on Discord.
+    content: BoomBot is a Discord bot that generates music samples in seconds using MusicGen.
+    link: https://modal-labs--boombot-app.modal.run/
+    repo: https://github.com/modal-labs/boombot
+    img: /assets/projects/boombot.png
+
   - title: Anything AI
     date: May 2023
     tagList: "Generative AI, Computer Vision, NLP"
