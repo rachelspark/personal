@@ -5,7 +5,7 @@
 </script>
 
 <header
-	class="layout-md flex flex-wrap justify-between items-end text-lg py-8 align-start"
+	class="layout-md flex flex-wrap justify-between items-end text-lg pt-12 pb-6 align-start"
 	data-sveltekit-noscroll
 	data-sveltekit-preload-code="eager"
 >

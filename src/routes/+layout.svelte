@@ -1,7 +1,7 @@
 <script>
 	import '../app.css';
 	import Header from '$lib/components/Header.svelte';
-	// import Footer from '$lib/components/Footer.svelte';
+	import Footer from '$lib/components/Footer.svelte';
 
 	import { fade } from 'svelte/transition';
 	import { browser } from '$app/environment';
@@ -23,7 +23,7 @@
 </script>
 
 
-<div class="flex flex-col h-screen justify-between">
+<div class="flex flex-col min-h-screen justify-between">
 	<div>
 		<Header />
 		{#if isMobile || reducedMotion}
@@ -41,7 +41,7 @@
 			{/key}
 		{/if}
 	</div>
-	<!-- <Footer/> -->
+	<Footer/>
 </div>
 
 <style>

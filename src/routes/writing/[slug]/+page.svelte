@@ -1,4 +1,5 @@
 <script>
+	import SubscribeForm from '$lib/components/SubscribeForm.svelte';
 	import { onMount } from 'svelte';
 
 	onMount(() => {
@@ -18,6 +19,7 @@
 	<h1 class="py-2">{data.title}</h1>
 	<p class="text-gray-500 mb-10">{data.date}</p>
 	<svelte:component this={data.content} />
+	<SubscribeForm/>
 </article>
 
 <style lang="postcss">
@@ -25,7 +27,7 @@
 		@apply text-base pb-6;
 	}
 	article :global(h1) {
-		@apply text-4xl font-bold leading-tight tracking-tight pt-10 pb-4;
+		@apply text-4xl font-bold leading-tight tracking-tight pt-8 pb-4;
 	}
 	article :global(h2) {
 		@apply text-2xl font-bold leading-snug pt-9 pb-3;
@@ -40,8 +42,7 @@
 		@apply bg-white/5 border border-zinc-700 rounded py-0.5 px-1;
 	}
 	article :global(a) {
-		@apply underline underline-offset-[2px]  decoration-neutral-400;
-		@apply  dark:decoration-neutral-800 dark:hover:text-white transition-colors;
+		@apply underline underline-offset-[2px] decoration-neutral-400 hover:decoration-neutral-800;
 		@apply dark:hover:decoration-white;
 	}
 	article :global(p) {

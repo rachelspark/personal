@@ -13,8 +13,8 @@
 	<MouseCursor />
 {/if}
 <div class="layout-md">
-	<div class="text-lg space-y-4 mt-8 mb-16">
-		<p>Hi! I'm Rachel Park.</p>
+	<div class="text-lg space-y-4 mt-6 mb-16">
+		<p>Hi! I'm Rachel.</p>
 		<p>
 			I’m a Stanford student working on the future of cloud computing at <a
 				class="link"
