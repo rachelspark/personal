@@ -3,7 +3,7 @@
     <h1 class="mt-4">About</h1>
 	<div class="text-lg space-y-4 mt-8 mb-16">
 		<p>
-			I’m a Stanford student working on the future of cloud computing at <a
+			I’m a Stanford student working at <a
 				class="link"
 				target="_blank"
 				href="https://modal.com/">Modal</a
